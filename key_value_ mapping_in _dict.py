@@ -1,0 +1,7 @@
+a=raw_input("keys : ")
+b=raw_input("values : ")
+l1=list(a)
+l1=a.split(" ")
+l2=list(b)
+l2=b.split(" ")
+print dict(zip(l1,l2))
