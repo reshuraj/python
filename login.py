@@ -1,0 +1,17 @@
+from Tkinter import *
+wndw=Tk()
+wndw.title("loginpage")
+lname=Label(wndw,text="Username")
+pswd=Label(wndw,text="Password")
+e_n=Entry(wndw)
+e_p=Entry(wndw)
+save=Button(wndw,text="save")
+cancel=Button(wndw,text="cancel")
+lname.grid(row=0,column=0)
+pswd.grid(row=1,column=0)
+e_n.grid(row=0,column=1)
+e_p.grid(row=1,column=1)
+save.grid(row=2,column=0)
+cancel.grid(row=2,column=1)
+wndw.mainloop()
+
